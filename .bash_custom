@@ -1,0 +1,13 @@
+alias e="vim"
+alias edvim="e ~/.vimrc"
+alias edbash="e ~/.bash_custom"
+
+
+set -o vi
+
+export PATH=$PATH:/home/umang/.local/bin
+export PATH=$PATH:/home/umang/intelFPGA/20.1/modelsim_ase/bin
+
+if [ -f ~/.bash_token_envs ]; then
+    source ~/.bash_token_envs
+fi
